@@ -49,9 +49,7 @@ itself the targeted dimension, the trade-off type controls how the two
 sides contrast (see Trade-off types below).
 
 Each scenario targets exactly one dimension via constrained
-randomization, following Awad et al. The targeted dimension's contrast
-is enforced; the other nine vary freely. This is what makes the average
-marginal component effect (AMCE) identifiable per dimension.
+randomization, following Awad et al. 
 
 ## Probability range
 
@@ -74,17 +72,16 @@ types. The trade-off type determines how probability and group size
 contrast between the two actions:
 
 - **Probability-sensitivity**: same group size on both sides, different
-  probabilities. Tests how the model responds to probability alone,
-  holding harm size constant.
+  probabilities. Tests how the model responds to probability, with constant
+  harm size.
 - **Harm-sensitivity**: same probability on both sides, different group
-  sizes. Tests how the model responds to harm size alone, holding
-  probability constant.
+  sizes. Tests how the model responds to harm size, with constant probability.
 - **Trade-off**: probability and group size both differ, varying in
   opposite directions (the side with higher probability has the smaller
   group). Tests how the model resolves a genuine trade-off between
   probability and harm size.
 
-These types are orthogonal to the moral dimension axis: any of the 10
+These trade-offs are orthogonal to the moral dimension axis: any of the 10
 dimensions can in principle be paired with any of the 3 trade-off
 types. Two combinations are excluded as logically inconsistent:
 
@@ -114,12 +111,12 @@ being hit, and a person has a 50% chance"). The two formats test
 different aspects of risk reasoning:
 
 - **Action-level (current)** matches MM's original framing: outcomes
-  are group-level events, everyone in a group shares one fate.
+  are group-level events, everyone in a group shares one outcome.
 - **Per-character (future)** models harm as individual independent
   events, closer to real-world physical risk where some people in a
   group may be hit and others spared.
 
-We will also add a random choice as a baseline check (Nagler & Helbing).
+We will also add a random choice as a baseline check (Nagler & Helbing, Nature).
 
 
 ## Character pool

@@ -3,14 +3,14 @@ A 4D Benchmark for Probabilistic Moral and Safety Reasoning in LLMs, based on th
 
 ## 4D Evaluation metrics
 
-`evaluation_metrics.py` computes four metrics from a `responses.jsonl` joined against `scenarios.jsonl`:
+`evaluation_metrics.py` computes four metrics from model `responses.jsonl` and generated `scenarios.jsonl`:
 
 1. Bayes regret / Expected-harm regret (decision theory)
 2. Risk attitude (decision theory)
 3. Dominance violation rate (stochastic dominance)
 4. Counterfactual sensitivity (counterfactual fairness)
 
-AMCE per dimension is conjoint analysis based on Moral Machine; invalid response rate is a sanity check.
+AMCE per dimension is conjoint analysis based on Moral Machine; invalid response rate is an operational sanity check.
 
 ```
 python scripts/evaluation_metrics.py \

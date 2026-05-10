@@ -1,5 +1,5 @@
 # PRISM-4D
-A 4D Benchmark for Probabilistic Moral and Safety Reasoning in LLMs, based on the [Moral Machine experiment](https://doi.org/10.1038/s41586-018-0637-6) by Awad et al. (2018) at MIT Media Lab. PRISM-4D extends smart car scenarios to probabilistic outcomes and introduces value-aligned CoT. We propose four evaluation metrics for AI safety: Bayes regret, stochastic dominance, risk attitude and counterfactual sensitivity.
+A Benchmark for Probabilistic Moral and Safety Reasoning in LLMs, based on the [Moral Machine experiment](https://doi.org/10.1038/s41586-018-0637-6) by Awad et al. (2018) at MIT Media Lab. PRISM-4D extends smart car scenarios to probabilistic outcomes and introduces value-aligned CoT. We propose four evaluation metrics for AI safety: Bayes regret, stochastic dominance, risk attitude and counterfactual sensitivity.
 
 ## 4D Evaluation metrics
 

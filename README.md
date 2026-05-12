@@ -10,7 +10,7 @@ A Benchmark for Probabilistic Moral and Safety Reasoning in LLMs, based on the [
 3. Dominance violation rate (stochastic dominance)
 4. Counterfactual sensitivity (counterfactual fairness)
 
-AMCE per dimension is conjoint analysis based on Moral Machine; invalid response rate is an operational sanity check.
+AMCE per dimension is conjoint analysis based on Moral Machine.
 
 ```
 python scripts/evaluation_metrics.py \

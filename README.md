@@ -21,8 +21,8 @@ python scripts/evaluation_metrics.py \
 
 ## Design
 
-See `docs/design.md` for the full scenario design: the 10 scenario dimensions,
-the 3 trade-off types, the character pool, the probability range, and
+See `docs/design.md` for the full scenario design: 10 scenario dimensions,
+3 trade-off types, character pool, probability range, and
 the future extensions.
 
 ## Quick start

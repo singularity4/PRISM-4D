@@ -1,0 +1,6 @@
+# Generating scenarios and computing the evaluation metrics: Python standard library only
+# Maximum-likelihood fit of risk attitude gamma (max_likelihood.py)
+numpy
+scipy
+# Versions used for the published results (Python 3.13):
+# numpy 2.5.3, scipy 1.18.1
